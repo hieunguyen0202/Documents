@@ -9,12 +9,12 @@ Fresh university graduates in 2020/2021 or up to March.2022 with major in ELECTR
 Knowledge for Software test
 • [Endian](https://embetronicx.com/tutorials/p_language/c/little-endian-and-big-endian/)
   - Little Endian: In Little-endian, LSB (Least significant byte) is stored to a `lower memory address`. Intel x86, Pentium are using this Little Endian. Thus, the little-endian byte order means, when the computer writes a word (Multi Byte) into memory, it begins by writing the Lowest byte to the lowest memory address and continues until it has written the highest byte to the highest memory address. It does this by writing subsequent and ascending memory addresses, no matter the endianness.
-    Địa chỉ bộ nhớ cao nhất | Địa chỉ bộ nhớ thấp nhất
-    +-----------------------+-----------------------+
+    | Địa chỉ bộ nhớ cao nhất | Địa chỉ bộ nhớ thấp nhất |
+    |-----------------------|-----------------------|
     | 0x78                  | 0x56                  |
-    +-----------------------+-----------------------+
+    |-----------------------|-----------------------|
     | 0x34                  | 0x12                  |
-    +-----------------------+-----------------------+
+    |-----------------------|-----------------------|
 
   - In Big Endian, MSB (Most significant byte) is stored to a highest memory address. Big-endian is implemented in PowerPC and most networking devices. The big-endian byte order means, when the computer writes a word (Multi Byte) into memory, it begins by writing the highest byte to the lowest memory address and continues until it has written the lowest byte to the highest memory address.
 • Basic SW technical terms
