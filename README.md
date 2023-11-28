@@ -42,7 +42,7 @@ Knowledge for Software test
 • True table
 • C language – basic
   - [Data Type](https://www.geeksforgeeks.org/data-types-in-c/) in C
-  - Data Type in C
+    
     ```c
     #include <stdio.h>
 
