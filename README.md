@@ -41,6 +41,32 @@ Knowledge for Software test
 • Binary calculation
 • True table
 • C language – basic
+  - [Data Type](https://www.geeksforgeeks.org/data-types-in-c/) in C
+  - Data Type in C
+    ```c
+    #include <stdio.h>
+
+    int main() {
+        char character = 'A';
+        int integerNumber = 42;
+        unsigned int unsignedNumber = 100;
+        float floatingPoint = 3.14;
+        double doubleNumber = 2.71828;
+        char string[] = "Hello, World!";
+        int *pointer = &integerNumber;
+    
+        printf("Character: %c\n", character);
+        printf("Integer (decimal): %d\n", integerNumber);
+        printf("Unsigned Integer: %u\n", unsignedNumber);
+        printf("Floating Point: %f\n", floatingPoint);
+        printf("Double: %lf\n", doubleNumber);
+        printf("String: %s\n", string);
+        printf("Pointer Address: %p\n", (void *)pointer);
+    
+        return 0;
+    }
+
+    ```
 • C language – variables and pointers
 • Interrupt
 Knowledge for English test
