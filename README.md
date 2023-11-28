@@ -8,13 +8,31 @@ Fresh university graduates in 2020/2021 or up to March.2022 with major in ELECTR
 ## Software Test
 Knowledge for Software test
 • [Endian](https://embetronicx.com/tutorials/p_language/c/little-endian-and-big-endian/)
-  - Little Endian: In Little-endian, LSB (Least significant byte) is stored to a `higher memory address`. Intel x86, Pentium are using this Little Endian. Thus, the little-endian byte order means, when the computer writes a word (Multi Byte) into memory, it begins by writing the Lowest byte to the lowest memory address and continues until it has written the highest byte to the highest memory address. It does this by writing subsequent and ascending memory addresses, no matter the endianness. Example 
+  - Little Endian: In Little-endian, LSB (Least significant byte) is stored to a `higher memory address`. Intel x86, Pentium are using this Little Endian. Thus, the little-endian byte order means, when the computer writes a word (Multi Byte) into memory, it begins by writing the Lowest byte to the lowest memory address and continues until it has written the highest byte to the highest memory address. It does this by writing subsequent and ascending memory addresses, no matter the endianness. Example 0x11223344
+  - If you see the output, 0x44 (LSB) in the `Lowest Address` and 0x11 (MSB) in the `Highest Address`. So this system is the `Little Endian System`.
 
-  ![image](https://github.com/hieunguyen0202/Upload/blob/main/Annotation%202023-11-28%20094325.png)
+   ![image](https://github.com/hieunguyen0202/Upload/blob/main/Annotation%202023-11-28%20094339.png)
 
-  - In Big Endian, MSB (Most significant byte) is stored to a lower memory address. Big-endian is implemented in PowerPC and most networking devices. The big-endian byte order means, when the computer writes a word (Multi Byte) into memory, it begins by writing the highest byte to the lowest memory address and continues until it has written the lowest byte to the highest memory address. Example 
+  ```c
+  #include <stdio.h>
+  
+  int main(void)
+  {
+      unsigned int value = 0x1;
+      char *r = (char *) &value;
+   
+      if (*r == 1) 
+          printf("Your system is Little Endian\n");
+      else
+          printf("Your system is Big Endian\n");
+      return 0;
+  }
+  ```
+
+  - In Big Endian, MSB (Most significant byte) is stored to a lower memory address. Big-endian is implemented in PowerPC and most networking devices. The big-endian byte order means, when the computer writes a word (Multi Byte) into memory, it begins by writing the highest byte to the lowest memory address and continues until it has written the lowest byte to the highest memory address. Example 0x11223344
+  - If you see the output, 0x44 (LSB) in the `Highest Address` and 0x11 (MSB) in the `Lowest Address`. So this system is the `Big Endian System`.
     
-  ![image](https://github.com/hieunguyen0202/Upload/blob/main/Annotation%202023-11-28%20094339.png)
+   ![image](https://github.com/hieunguyen0202/Upload/blob/main/Annotation%202023-11-28%20094325.png)
   
 • Basic SW technical terms
 • Basic mathematics
