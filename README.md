@@ -28,7 +28,7 @@ Knowledge for Software test
       return 0;
   }
   ```
-  > Byte High - Highest Address and Byte Low - Lowest Address
+  > MSB - Highest Address and LSB - Lowest Address
   - In Big Endian, MSB (Most significant byte) is stored to a lower memory address. Big-endian is implemented in PowerPC and most networking devices. The big-endian byte order means, when the computer writes a word (Multi Byte) into memory, it begins by writing the highest byte to the lowest memory address and continues until it has written the lowest byte to the highest memory address. Example 0x11223344
   - If you see the output, 0x44 (LSB) in the `Highest Address` and 0x11 (MSB) in the `Lowest Address`. So this system is the `Big Endian System`.
     
