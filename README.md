@@ -68,6 +68,7 @@ Knowledge for Software test
 
     ```
 • C language – variables and pointers
+  - [Pointer](https://embetronicx.com/tutorials/p_language/c/pointers_1/) in C
 • Interrupt
 Knowledge for English test
 • Grammar
