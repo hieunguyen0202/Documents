@@ -18,3 +18,7 @@
 - Đường cong kĩ năng
 
   ![image](https://github.com/hieunguyen0202/Documents/assets/98166568/fe65f6c5-8534-4b9c-8a2a-e7293c0c315f)
+
+### Mình tự gỡ nút thắt sau ra trường như thế nào?
+- Không hành nào là dễ dàng !!!!
+- Đã cố gắng hết sức chưa
